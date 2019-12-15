@@ -156,21 +156,20 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             print("Didn't touch anything")
         }
         else {
-            addNode()
             print("touched node")
         }
     }
     
-    func addNode() {
-
-        print("Function worked")
-        let node = SCNNode()
-        let testScene = SCNScene(named: "art.scnassets/test.scn")!
-        let testNode = testScene.rootNode.childNodes.first!
-
-        node.addChildNode(testNode)
-        print(node)
-    }
+//    func addNode() {
+//
+//        print("Function worked")
+//        let node = SCNNode()
+//        let testScene = SCNScene(named: "art.scnassets/test.scn")!
+//        let testNode = testScene.rootNode.childNodes.first!
+//
+//        node.addChildNode(testNode)
+//        print(node)
+//    }
 //***********************************************************************************
     
     
